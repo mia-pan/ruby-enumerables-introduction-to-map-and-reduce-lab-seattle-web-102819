@@ -48,13 +48,13 @@ end
 def reduce_to_all_true(array)
   i=0
   while i < array.length do 
+    return false
     if (array[i])
-      return true
+      i +=1
     end
-    i +=1
+  return TRUE
   end
-  return false
-  
+
 end
 
 
