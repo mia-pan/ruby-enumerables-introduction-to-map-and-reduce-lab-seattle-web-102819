@@ -49,7 +49,7 @@ def reduce_to_all_true(array)
   i = 0
   while i < array.length do
      
-    if (array[i]=truthy)
+    if (array[i])
     return true
   end
   i += 1
