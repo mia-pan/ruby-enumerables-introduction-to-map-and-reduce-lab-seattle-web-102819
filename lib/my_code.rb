@@ -53,7 +53,7 @@ def reduce_to_all_true(source_array)
     return true
   end
   i += 1
-else if (source_array[i]==false)
+elseif (source_array[i]==false)
 
 return false
 end
